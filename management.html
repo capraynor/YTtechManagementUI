@@ -12,16 +12,18 @@
     <!-- jQuery -->
     <script src="js/jquery-1.11.3.min.js"></script>
 
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
+
     <!-- Pushy JS -->
     <script src="js/pushy.min.js"></script>
 
-    <!-- Pushy JS -->
+    <!-- main JS-->
     <script src="js/management.js"></script>
 
     <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Bootstrap JS -->
-    <script src="js/bootstrap.js"></script>
+
     <link href="css/management.css" rel="stylesheet">
 
     <title>运通公司首页管理</title>
@@ -102,43 +104,43 @@
             </thead>
             <tbody>
             <tr>
-                <td>
+                <td id="no-title-1">
                     左上方标题（导航栏左侧）
                 </td>
                 <td id="title_left_up">
                     类型选择器
                 </td>
                 <td>
-                    <button type="button" class="btn btn-primary" id = 'title_left_up_button'>更改</button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#no-title-modal" id = 'title_left_up_button'>更改</button>
                 </td>
 
             </tr>
             <tr>
-                <td>
+                <td id="no-title-2">
                     首页主标题
                 </td>
                 <td id="main_title">
                     类型选择器
                 </td>
                 <td>
-                    <button type="button" class="btn btn-primary" id="main_title_button">更改</button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#no-title-modal" id="main_title_button">更改</button>
                 </td>
 
             </tr>
             <tr>
-                <td>
+                <td id="no-title-3">
                     首页主标题描述（主标题下面的那一行）
                 </td>
                 <td id="below_main_title">
                     类型选择器
                 </td>
                 <td>
-                    <button type="button" class="btn btn-primary" id="below_main_title_button">更改</button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#no-title-modal" id="below_main_title_button">更改</button>
                 </td>
 
             </tr>
             <tr>
-                <td>
+                <td id="services_title">
                     我们提供的服务
                 </td>
                 <td>
@@ -194,20 +196,20 @@
                     这是一个集合，请单击右侧按钮更改
                 </td>
                 <td>
-                    <button type="button" class="btn btn-primary" id="technical_distribution_button">更改</button>
+                    <button type="button" class="btn btn-primary" id="technical_distribution_button" >更改</button>
                 </td>
 
             </tr>
 
             <tr>
-                <td>
+                <td id="no-title-4">
                     公司案例
                 </td>
                 <td>
                     这是一个集合，请单击右侧按钮更改
                 </td>
                 <td>
-                    <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal" id="showcase_button">更改</button>
+                    <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#no-title-modal" id="showcase_button">更改</button>
                 </td>
 
             </tr>
@@ -221,41 +223,29 @@
         <!--2.编辑单行文字（标题 等）-->
         <!--3.编辑大段文字-->
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#no-title-modal">
             Launch demo modal
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal fade" id="no-title-modal" tabindex="-1" role="dialog" aria-labelledby="no-title-modal-label">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">这个应该是model窗口的标题</h4>
+                        <!-- 下面这句不知道是干啥的-->
+                        <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+                        <h4 class="modal-title" id="no-title-modal-label">更改网站内容</h4>
                     </div>
                     <div class="modal-body">
                         <div class="modal-body">
-                            <h4>这应该是标题</h4>
-                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
-
-                            <h4>这也应该是标题</h4>
-                            <p>This <a role="button" class="btn btn-default popover-test" title="" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">button</a> should trigger a popover on click.</p>
-
-                            <h4>Tooltips in a modal</h4>
-                            <p><a href="#" class="tooltip-test" title="" data-original-title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="" data-original-title="Tooltip">that link</a> should have tooltips on hover.</p>
 
                             <hr>
 
-                            <h4>Overflowing text to show scroll behavior</h4>
-                            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                            <div class="form-group">
+                                <label for="usr">文字：</label>
+                                <input type="text" class="form-control" id="usr">
+                            </div>
+
                         </div>
                     </div>
                     <div class="modal-footer">

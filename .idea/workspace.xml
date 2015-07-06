@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54e4cd1-5498-4c93-8fc1-946631903c11" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/.idea/YTtechWebsiteManagementUI.iml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/jquery-1.11.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/management.css" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/management.html" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/management.js" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/pushy.css" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/pushy.js" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/pushy.min.js" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/management.html" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/management.html" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/management.js" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/management.js" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/.idea/workspace.xml" afterPath="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/.idea/workspace.xml" />
     </list>
     <ignored path="YTtechManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,34 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="management.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="management.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/management.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
-              <caret line="210" column="21" selection-start-line="210" selection-start-column="21" selection-end-line="210" selection-end-column="21" />
+            <state vertical-scroll-proportion="-2.4655173">
+              <caret line="212" column="21" selection-start-line="212" selection-start-column="21" selection-end-line="212" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="management.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="management.js" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/management.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.5813953">
+              <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/normalize.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -108,6 +73,8 @@
         <option value="$USER_HOME$/WebstormProjects/YTtechManagement/js/management.js" />
         <option value="$USER_HOME$/WebstormProjects/YTtechManagement/css/management.css" />
         <option value="$USER_HOME$/WebstormProjects/YTtechManagement/management.html" />
+        <option value="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/management.html" />
+        <option value="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/management.js" />
       </list>
     </option>
   </component>
@@ -123,6 +90,28 @@
     <option name="y" value="24" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSJQueryEfficiency</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -171,6 +160,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YTtechManagementUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YTtechWebsiteManagementUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -186,6 +189,9 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI" />
     <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -261,22 +267,22 @@
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1885759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969134" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960877" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1885759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960877" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3935185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29012346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -415,14 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/pushy.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -436,16 +434,6 @@
         <state vertical-scroll-proportion="0.6796116">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/management.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -465,11 +453,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/management.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="210" column="21" selection-start-line="210" selection-start-column="21" selection-end-line="210" selection-end-column="21" />
+        <state vertical-scroll-proportion="-2.4655173">
+          <caret line="212" column="21" selection-start-line="212" selection-start-column="21" selection-end-line="212" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/WebstormProjects/YTtechWebsiteManagementUI/js/management.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5813953">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
