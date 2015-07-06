@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Pushy CSS -->
+    <link rel="stylesheet" href="css/pushy.css">
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Pushy JS -->
+    <script src="js/pushy.min.js"></script>
+
+    <!-- Pushy JS -->
+    <script src="js/management.js"></script>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
+    <link href="css/management.css" rel="stylesheet">
+
+    <title>运通公司首页管理</title>
+</head>
+<body>
+<!--<header>-->
+<!--<nav class="navbar navbar-inverse navbar-fixed-top">-->
+<!--<div class="container">-->
+<!--<div class="navbar-header">-->
+<!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"-->
+<!--data-target=".navbar-collapse">-->
+<!--<span class="sr-only">Toggle navigation</span>-->
+<!--<span class="icon-bar"></span>-->
+<!--<span class="icon-bar"></span>-->
+<!--<span class="icon-bar"></span>-->
+<!--</button>-->
+<!--<a class="navbar-brand" href="#">运通公司首页内容管理</a>-->
+<!--</div>-->
+<!--<div class="navbar-collapse collapse">-->
+<!--<ul class="nav navbar-nav">-->
+<!--<li class="active"><a href="#">Home</a></li>-->
+<!--<li><a href="#about">About</a></li>-->
+<!--<li><a href="#contact">Contact</a></li>-->
+<!--<li class="dropdown">-->
+<!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"-->
+<!--aria-expanded="false">Dropdown <span class="caret"></span></a>-->
+<!--<ul class="dropdown-menu">-->
+<!--<li><a href="#">Action</a></li>-->
+<!--<li><a href="#">Another action</a></li>-->
+<!--<li><a href="#">Something else here</a></li>-->
+<!--<li role="separator" class="divider"></li>-->
+<!--<li class="dropdown-header">Nav header</li>-->
+<!--<li><a href="#">Separated link</a></li>-->
+<!--<li><a href="#">One more separated link</a></li>-->
+<!--</ul>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--&lt;!&ndash;/.nav-collapse &ndash;&gt;-->
+<!--</div>-->
+<!--</nav>-->
+<!--</header>-->
+
+<!-- pushy菜单-->
+<nav class="pushy pushy-left">
+    <ul>
+        <li id='manage-homepage-content-menu-item'><a href="#">首页内容管理</a></li>
+        <li><a href="#">博客内容管理</a></li>
+        <li><a href="#">博客留言管理</a></li>
+        <li><a href="#">子页面管理</a></li>
+        <li><a href="#">退出登录</a></li>
+    </ul>
+</nav>
+
+<div class="site-overlay"></div>
+<!--Who knows   非得要上面那句-->
+<div class="container management-content" id="container">
+
+    <!-- pushy菜单-->
+    <div class="menu-btn">&#9776; 显示菜单</div>
+
+    <div id='homepage-content' class = 'page-contents'>
+        <h3>深圳市运通公司 首页内容管理</h3>
+
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th>
+                    位置
+                </th>
+                <th>
+                    当前值
+                </th>
+                <th></th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    左上方标题（导航栏左侧）
+                </td>
+                <td id="title_left_up">
+                    类型选择器
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary" id = 'title_left_up_button'>更改</button>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    首页主标题
+                </td>
+                <td id="main_title">
+                    类型选择器
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary" id="main_title_button">更改</button>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    首页主标题描述（主标题下面的那一行）
+                </td>
+                <td id="below_main_title">
+                    类型选择器
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary" id="below_main_title_button">更改</button>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    我们提供的服务
+                </td>
+                <td>
+                   这是一个集合，请点击右侧按钮更改
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary" id="services_button">更改</button>
+                </td>
+
+            </tr>
+            <tr>
+                <td id="about_title">
+                    关于我们
+                </td>
+                <td id="about_content">
+                    这是一个大段内容，请使用 “&#60;p&#62;”来进行分段
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary" id="about_content_button">更改</button>
+                </td>
+
+            </tr>
+            <tr>
+                <td id="employee_title">
+                    公司员工介绍
+                </td>
+                <td>
+                    这是一个集合，请单击右侧按钮更改
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary" id="employee_button">更改</button>
+                </td>
+
+            </tr>
+            <tr>
+                <td id="technical_direction_title">
+                    我们的技术方向
+                </td>
+                <td id="technical_direction_content">
+                    这是一个大段内容，请使用 “&#60;p&#62;”来进行分段
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary" id="technical_direction_content_button">更改</button>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td id="technical_distribution_title">
+                    公司技术分布
+                </td>
+                <td>
+                    这是一个集合，请单击右侧按钮更改
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary" id="technical_distribution_button">更改</button>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    公司案例
+                </td>
+                <td>
+                    这是一个集合，请单击右侧按钮更改
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myModal" id="showcase_button">更改</button>
+                </td>
+
+            </tr>
+
+
+            </tbody>
+        </table>
+
+        <!-- modal需要又下面几种-->
+        <!--1.编辑集合-->
+        <!--2.编辑单行文字（标题 等）-->
+        <!--3.编辑大段文字-->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">这个应该是model窗口的标题</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-body">
+                            <h4>这应该是标题</h4>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+
+                            <h4>这也应该是标题</h4>
+                            <p>This <a role="button" class="btn btn-default popover-test" title="" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">button</a> should trigger a popover on click.</p>
+
+                            <h4>Tooltips in a modal</h4>
+                            <p><a href="#" class="tooltip-test" title="" data-original-title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="" data-original-title="Tooltip">that link</a> should have tooltips on hover.</p>
+
+                            <hr>
+
+                            <h4>Overflowing text to show scroll behavior</h4>
+                            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                            <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+
+</footer>
+
+
+</body>
+</html>

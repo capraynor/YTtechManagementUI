@@ -1,0 +1,33 @@
+.management-content{
+    margin-top: 50px;
+}
+
+.content-name{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: auto;
+    font-size: 20px;
+}
+
+.management-content>h3{
+}
+
+td { min-width: 300px; }
+
+
+/* Menu Button */
+
+.menu-btn{
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background: #38258f;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+}
+.menu-btn:hover{
+    background: #00b4ff;
+    color: #FFF;
+}
